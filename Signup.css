@@ -1,0 +1,151 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\books.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html {
+    font-family: 'lato', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.15;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.forum {
+    background-color: rgb(250, 250, 250);
+    width: 17cm;
+    height: 17cm;
+    margin: 0 auto;
+    margin-top: 4cm;
+    border-radius: 200px;
+}
+
+.forum-Holder {
+    background-color: transparent;
+    width: 15cm;
+    height: 10cm;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-top: 150px;
+
+}
+
+.forum-Holder2 {
+    background-color: transparent;
+    width: 15cm;
+    height: 10cm;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-top: 200px;
+
+}
+
+.row::before, .row::after {
+    content: "";
+    display: table;
+}
+
+.row::after {
+    clear: both;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.span-1-of-3 {
+    width: 25.26%;
+}
+
+.span-1-of-31 {
+    /* width: 8%; */
+}
+
+.span-2-of-3 {
+    width: 66.13%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2;
+}
+
+.btn-full {
+    background-color: rgb(4, 97, 131);
+    border: 1px solid rgb(6, 79, 106);
+    color: #fff;
+}
+
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 3cm;
+}
+.contact-form .span-1-of-3 {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(4, 97, 131);
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.btn:hover, .btn:active {
+    background-color: rgb(15, 117, 155);
+}
+
+.center {
+    padding-left: 45px;
+
+}
+
+.center1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.playing {
+    margin-right: 20px;
+}
+
+.playing1 {
+    margin-right: 25px;
+}
